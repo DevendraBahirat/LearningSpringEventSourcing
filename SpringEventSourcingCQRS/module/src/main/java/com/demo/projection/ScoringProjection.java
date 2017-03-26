@@ -8,8 +8,9 @@ import com.demo.persistence.entities.LeadScore;
 import com.demo.persistence.repo.LeadScoreRepo;
 import com.demo.store.event.LeadClickedOnPromotionalLinkEvent;
 import com.demo.store.event.LeadCreatedEvent;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class ScoringProjection {
 
     @Autowired

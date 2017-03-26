@@ -12,6 +12,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  *
@@ -21,6 +22,7 @@ import org.springframework.context.annotation.PropertySource;
 @EnableAutoConfiguration
 @ComponentScan("com.demo")
 @PropertySource("classpath:application.properties" )
+@EnableScheduling
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer {
 

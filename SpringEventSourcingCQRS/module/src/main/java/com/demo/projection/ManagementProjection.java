@@ -7,8 +7,9 @@ import org.springframework.stereotype.Service;
 import com.demo.persistence.entities.Lead;
 import com.demo.persistence.repo.LeadRepo;
 import com.demo.store.event.LeadCreatedEvent;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public class ManagementProjection {
 
     @Autowired
